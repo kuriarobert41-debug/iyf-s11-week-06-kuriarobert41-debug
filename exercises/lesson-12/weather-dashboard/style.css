@@ -1,0 +1,9 @@
+/* exercises/lesson-12/weather-dashboard/style.css */
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f6f8fa; color:#0b0b0b; }
+.container { max-width:720px; margin:32px auto; padding:20px; background:#fff; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06);} 
+h1 { margin-top:0 }
+.controls, .search { display:flex; gap:8px; margin-bottom:12px; align-items:center }
+input { padding:8px; font-size:14px; border:1px solid #ddd; border-radius:4px; }
+button { padding:8px 12px; font-size:14px; border:none; background:#0366d6; color:#fff; border-radius:4px; cursor:pointer }
+.result { margin-top:16px; padding:12px; border-radius:6px; border:1px dashed #e1e4e8; background:#fbfdff }
+small { color:#555 }
